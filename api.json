@@ -39,31 +39,17 @@
                                                 "product_id": "1",
                                                 "name": "mie goreng",
                                                 "category": "makanan",
-                                                "price": {
-                                                    "formatted": "Rp. 2000",
-                                                    "unformatted": 2000
-                                                },
+                                                "price": 4000,
                                                 "stock": 30,
-                                                "description_product": "ini contoh deskripsi produk",
-                                                "images": [
-                                                    "image1.jpg",
-                                                    "image2.jpg"
-                                                ]
+                                                "description_product": "ini contoh deskripsi produk"
                                             },
                                             {
                                                 "product_id": "2",
                                                 "name": "teh pucuk",
                                                 "category": "minuman",
-                                                "price": {
-                                                    "formatted": "Rp. 4.500",
-                                                    "unformatted": 4500
-                                                },
+                                                "price": 4000,
                                                 "stock": 15,
-                                                "description_product": "ini contoh deskripsi produk",
-                                                "images": [
-                                                    "image1.jpg",
-                                                    "image2.jpg"
-                                                ]
+                                                "description_product": "ini contoh deskripsi produk"
                                             }
                                         ]
                                     }
@@ -214,31 +200,17 @@
                                                 "product_id": "1",
                                                 "name": "mie goreng",
                                                 "category": "makanan",
-                                                "price": {
-                                                    "formatted": "Rp. 2000",
-                                                    "unformatted": 2000
-                                                },
+                                                "price": 2000,
                                                 "stock": 30,
-                                                "description_product": "ini contoh deskripsi produk",
-                                                "images": [
-                                                    "image1.jpg",
-                                                    "image2.jpg"
-                                                ]
+                                                "description_product": "ini contoh deskripsi produk"
                                             },
                                             {
                                                 "product_id": "2",
                                                 "name": "teh pucuk",
                                                 "category": "minuman",
-                                                "price": {
-                                                    "formatted": "Rp. 4.500",
-                                                    "unformatted": 4500
-                                                },
+                                                "price": 4500,
                                                 "stock": 15,
-                                                "description_product": "ini contoh deskripsi produk",
-                                                "images": [
-                                                    "image1.jpg",
-                                                    "image2.jpg"
-                                                ]
+                                                "description_product": "ini contoh deskripsi produk"
                                             }
                                         ]
                                     }
@@ -281,16 +253,9 @@
                                             "product_id": "1",
                                             "name": "mie goreng",
                                             "category": "makanan",
-                                            "price": {
-                                                "formatted": "Rp. 2000",
-                                                "unformatted": 2000
-                                            },
+                                            "price": 2000,
                                             "stock": 30,
-                                            "description_product": "ini contoh deskripsi produk",
-                                            "images": [
-                                                "image1.jpg",
-                                                "image2.jpg"
-                                            ]
+                                            "description_product": "ini contoh deskripsi produk"
                                         }
                                     }
                                 }
@@ -418,19 +383,8 @@
                                     "Golang": {
                                         "description": "Success update product with golang",
                                         "value": {
-                                            "product_id": "1",
-                                            "name": "mie goreng",
-                                            "category": "makanan",
-                                            "price": {
-                                                "formatted": "Rp. 2000",
-                                                "unformatted": 2000
-                                            },
-                                            "stock": 30,
-                                            "description_product": "ini contoh deskripsi produk",
-                                            "images": [
-                                                "image1.jpg",
-                                                "image2.jpg"
-                                            ],
+                                            "code": 200,
+                                            "status": "k",
                                             "message": "success update product"
                                         }
                                     }
@@ -457,16 +411,9 @@
                                     "value": {
                                         "name": "mie goreng",
                                         "category": "makanan",
-                                        "price": {
-                                            "formatted": "Rp. 2000",
-                                            "unformatted": 2000
-                                        },
+                                        "price": 2000,
                                         "stock": 30,
-                                        "description_product": "ini contoh deskripsi produk",
-                                        "images": [
-                                            "image1.jpg",
-                                            "image2.jpg"
-                                        ]
+                                        "description_product": "ini contoh deskripsi produk"
                                     }
                                 }
                             }
@@ -518,16 +465,8 @@
                         "type": "string"
                     },
                     "price": {
-                        "type": "object",
-                        "properties": {
-                            "formatted": {
-                                "type": "string"
-                            },
-                            "unformatted": {
-                                "type": "number",
-                                "format": "int32"
-                            }
-                        }
+                        "type": "number",
+                        "format": "int32"
                     },
                     "stock": {
                         "type": "number",
@@ -535,12 +474,6 @@
                     },
                     "description_product": {
                         "type": "string"
-                    },
-                    "images": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
                     }
                 }
             },
@@ -572,12 +505,6 @@
                     },
                     "description_product": {
                         "type": "string"
-                    },
-                    "image": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
                     }
                 }
             },
