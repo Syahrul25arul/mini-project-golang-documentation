@@ -116,11 +116,7 @@
                                         "category": 3,
                                         "price": 5000,
                                         "stock": 12,
-                                        "description_product": "mie goreng indomie product",
-                                        "image": [
-                                            "image1.jpg",
-                                            "image2.jpg"
-                                        ]
+                                        "description_product": "mie goreng indomie product"
                                     }
                                 }
                             }
